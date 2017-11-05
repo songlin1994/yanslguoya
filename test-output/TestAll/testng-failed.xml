@@ -1,0 +1,17 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Failed suite [TestAll]">
+  <test name="case1(failed)">
+    <classes>
+      <class name="com.guoya.FirstNewTestNG">
+        <methods>
+          <include name="beforeClass"/>
+          <include name="username"/>
+          <include name="result"/>
+          <include name="password"/>
+          <include name="afterClass"/>
+        </methods>
+      </class> <!-- com.guoya.FirstNewTestNG -->
+    </classes>
+  </test> <!-- case1(failed) -->
+</suite> <!-- Failed suite [TestAll] -->

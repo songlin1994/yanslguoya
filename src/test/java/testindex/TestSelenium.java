@@ -35,6 +35,8 @@ public class TestSelenium {
 				 
 		isSuuccess = driver.getPageSource().contains("get");
 		System.out.println(isSuuccess);
+		
+		
 	}
 		
 	
